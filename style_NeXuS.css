@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100);
+#dlbutton,#nav,.navlink
+{
+	height: 50px;
+}
+.navlink
+{
+	color: #FFF;
+	padding: 25px;
+	border-radius: 6px;
+}
+h2,td
+{
+	padding: 3px;
+}
+.navlink:hover
+{
+	background: #2d223544;
+}
+.navlink:active
+{
+	background: #9b99cc8a;
+}
+#main
+{
+	background: #1e1e1fc0;
+	padding: 10px 20px;
+	margin: 0 0;
+	border-bottom: 4px solid #07070f5e;
+	border-top: 3px solid #07070f5e;
+}
+h1
+{
+	border-top: 3px solid #14141e;
+	border-bottom: 3px solid #07070f;
+	font-weight: 100;
+	background: #1e1e1fc0;
+	font-size: 30px;
+	margin: -45px 0 0;
+	padding: 10px 20px;
+	text-align: center;
+}
+.navbar-brand {
+	background-size: 50px 50px;
+	background-position: center;
+	padding: 30px 5px 5px 30px;
+	background-repeat: no-repeat;
+	color: transparent;
+	text-shadow: none;
+}
+#banner
+{
+	text-align: center;
+}
+.navlink,.navlink:active,.navlink:hover
+{
+	transition: border 0.8s,background 0.10s;
+}
+b,h2
+{
+	font-weight: 100;
+}
+#download,#item
+{
+	margin: 20px;
+}
+#dlbutton,#download,#item
+{
+	padding: 25px;
+}
+#button,#download,#item
+{
+	display: inline-block;
+}
+#dlbutton,.navlink
+{
+	text-decoration: none;
+}
+#nav
+{
+    background: #4d4d5e33;
+	color: #FFF;
+	font-size: 23px;
+	overflow: visible;
+	padding-left: 10%;
+	position: relative;
+	border-bottom: 3px solid #727272;
+}
+#item
+{
+	background: #CCC;
+}
+#download
+{
+	background: #6C6;
+}
+#dlbutton
+{
+	color: rgb(32, 32, 32);
+}
+#download:hover
+{
+	background: #393;
+}
+#download:active
+{
+	background: #363;
+}
+body
+{
+	text-shadow:
+			-1px -1px 0 #222,
+			-1px 1px 0 #222,
+			-1px 0 0 #222,
+			1px -1px 0 #222,
+			1px 1px 0 #222,
+			1px 0 0 #222,
+			0 -1px 0 #222,
+			0 1px 0 #222;
+	background-color: rgb(36, 36, 36), url("https://i.hizliresim.com/z2nU9q.png");
+	background-image: url("https://i.hizliresim.com/z2nU9q.png");
+	background-position-y: -100px;
+	background-size: cover;
+    background-repeat: no-repeat, repeat;
+	color: #EEE;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 13px;
+	font-weight: 100;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	top: 0;
+}
+#button
+{
+	line-height: 40px;
+	margin-left: 5px;
+}
+h2
+{
+	margin: 0 0 10px;
+	font-size: 30px;
+	text-align: left;
+}
+input[type=file],input[type=submit],input[type=text]
+{
+	cursor: pointer;
+	font: 150% 'Alegreya Sans SC', sans-serif;
+	width: 100%;
+}
+table
+{
+	font-size: 150%;
+	border: 2px solid #555;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #333;
+	border-radius: 6px;
+	table-layout: auto;
+	background: #242424af;
+	width: 100%;
+}
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 7px;
+}
+td
+{
+	text-align: left;
+}
+#box
+{
+	margin-bottom: 65px;
+}
+input[type=file]:focus,input[type=submit]:focus,input[type=text]:focus
+{
+	outline: transparent 0;
+}
+input[type=text]
+{
+	background-color: #444;
+}
+input[type=submit]
+{
+	background: #444;
+	border: 6px solid #666;
+	color: #EEE;
+}
+input[type=submit]:hover
+{
+	background-color: rgb(114, 116, 114);
+}
+input[type=submit]:active
+{
+	background-color: rgb(42, 43, 42);
+}
+input[type=file]
+{
+	border: 2px solid rgb(92, 92, 92);
+	border-top-color: rgb(88, 88, 88);
+	border-bottom-color: rgb(46, 46, 46);
+	border-radius: 6px;
+	background-color: #242424af;
+	transition: background 0.5s, border 0.5s, color 0.5s;
+}
+input[type=file]:active,input[type=file]:hover
+{
+	background-color: #141414;
+	transition: background 0.5s, border 0.5s, color 0.5s;
+	color: transparent;
+
+}
+input[type=file]:hover:after {
+	color: #FFF;
+	content: "\00a0 > Click to choose a file <";
+	transition: background 0.5s, border 0.5s, color 0.5s;
+}
+
+#banner
+{
+	background-image: url("");
+	background-color: rgba(51, 51, 51, 0);
+	letter-spacing: 6px;
+	color: #fff;
+	display: block;
+	font-weight: 100;
+	height: 180px;
+}
